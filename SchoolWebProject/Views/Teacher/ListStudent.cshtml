@@ -1,0 +1,22 @@
+﻿<!-- This code is similar to the code which can be found from:
+    https://github.com/christinebittle/BlogProject_2/blob/master/BlogProject/Views/Author/List.cshtml -->
+
+@model IEnumerable<SchoolWebProject.Models.Student>
+
+@{
+    ViewBag.Title = "List of Student";
+}
+
+<h2>List</h2>
+<p>This page shows the name of all Students</p>
+
+
+<div id="containerlist">
+    <h2>List of Students with their Student Numbers (Bonus Activity)</h2>
+    @foreach (var student in Model)
+    {
+        <div class="listitem row">
+            <div class="col-md-12">@student.studentnumber @student.studentfname @student.studentlname </div>
+        </div>
+    }
+</div>

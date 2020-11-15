@@ -1,0 +1,17 @@
+﻿@model SchoolWebProject.Models.Teacher
+
+@{
+    ViewBag.Title = "Search Result";
+}
+
+
+<div id="containershow">
+    <h2>Your search has resulted in the following result. (Bonus Activity)</h2>
+    <ul>
+        <li>First Name: @Model.teacherfname</li>
+        <li>Last Name: @Model.teacherlname</li>
+        <li>Employee Number: @Model.employeenumber</li>
+        <li>Hire Date: @Model.hiredate</li>
+        <li>Salary: @Model.salary</li>
+    </ul>
+</div>

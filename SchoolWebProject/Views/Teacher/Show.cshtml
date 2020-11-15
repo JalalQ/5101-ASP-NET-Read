@@ -1,0 +1,20 @@
+﻿@model IEnumerable<SchoolWebProject.Models.TeacherCourses>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<a class="navlink" href="/teacher/List">Back To Teachers</a>
+
+<div id="containerlist">
+    <h2>List of Courses Taugh by a Teacher (Bonus Activity)</h2>
+    @foreach (var teacher in Model)
+    {
+        <div class="listitem row">
+            <div class="col-md-12">Teacher Name: @teacher.teacherfname @teacher.teacherlname</div>
+            <div class="col-md-12">Course: @teacher.classcode @teacher.classname </div>
+        </div>
+    }
+</div>

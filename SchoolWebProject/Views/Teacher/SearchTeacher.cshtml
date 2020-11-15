@@ -1,0 +1,19 @@
+﻿<!--Provide a view (form) to search for any specific teacher by first name.
+    The code is easily extendable for other scenarios (e.g. search by last
+    name)-->
+
+@{
+    ViewBag.Title = "SearchTeacher";
+}
+
+<h2>Search Teacher (Bonus Activity)</h2>
+
+<form action="SearchResult" method="POST">
+    <div>
+        <label>First Name: </label>
+        <input type="text" name="name" />
+    </div>
+    <div>
+        <input type="submit" value="Search" />
+    </div>
+</form>
