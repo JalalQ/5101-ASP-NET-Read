@@ -1,7 +1,6 @@
 # Introduction
 
-The objective of this project is to create minimum viable product (MVP) of implementing the 'read' functionality on the teachers mysql table using WebAPI and MVC architecture
-pattern.
+The objective of this project is to create minimum viable product (MVP) of implementing the 'read' functionality on the teachers MySQL table using WebAPI and MVC architecture pattern using Microsoft Visual Studio IDE.
 
 A full description of the scope of the assignment is given in the attached file, **5101_A3_F2020(2).pdf**:
 * [x] Display the list of all teachers.
